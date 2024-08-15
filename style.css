@@ -5,7 +5,8 @@
 }
 
 html, body {
-    height: 100%;
+    height: auto;
+    padding-bottom: 40px;
     overflow-x: hidden; /* Evita rolagem horizontal indesejada */
 }
 
@@ -89,8 +90,8 @@ a {
     .container {
         flex-direction: column; /* Alinha os cartões em uma coluna em telas menores */
         align-items: center; /* Centraliza os cartões na coluna */
+        padding-left: 30px;
     }
-
     .person-card {
         width: 90%; /* Ajusta a largura dos cartões em dispositivos menores */
         height: auto; /* Permite que a altura se ajuste conforme necessário */
